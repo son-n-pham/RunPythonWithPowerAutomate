@@ -7,6 +7,7 @@
 ![image](https://user-images.githubusercontent.com/79841341/226110682-d22653e5-7c28-43fe-8e3a-d80972dcb7d2.png)
 
 - However, I have the error with PowerAutomate due to company policy to not allow to run Python script or any scripts with Power Automate.
+- Therefore, I do not use Power Automate for my case and switch to running PowerShell from a Windows shortcut
 
 ## Run Python with PowerShell
 - Background:
