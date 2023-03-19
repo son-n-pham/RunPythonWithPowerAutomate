@@ -2,6 +2,7 @@
 
 ## Step to do:
 - Create HelloWorld.py
+- HelloWorld.py is run properly.
 - Use Power Automate desktop app to create new flow Run Hello World Python
 
 ![image](https://user-images.githubusercontent.com/79841341/226110682-d22653e5-7c28-43fe-8e3a-d80972dcb7d2.png)
@@ -25,3 +26,11 @@ $Shortcut.TargetPath = "C:\Windows\System32\WindowsPowerShell\v1.0\powershell.ex
 $Shortcut.Arguments = "-ExecutionPolicy Bypass -File C:\development\RunPythonWithPowerAutomate\script.ps1"
 $Shortcut.Save()
 ```
+
+- The shortcut will run the PowerShell file script.ps1, which is run the monitor_folder.py. Below is the content of script.ps1
+
+```powershell
+python C:\development\RunPythonWithPowerAutomate\monitor_folder.py
+```
+
+- monitor.py is an python program to monitor a folder and execute some commands when new file(s) are added into that folder.
